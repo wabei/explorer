@@ -1,4 +1,4 @@
-angular.module('ethExplorer')
+angular.module('wabExplorer')
     .controller('mainCtrl', function ($rootScope, $scope, $location) {
 
 	var web3 = $rootScope.web3;

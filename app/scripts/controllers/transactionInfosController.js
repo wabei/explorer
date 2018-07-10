@@ -1,4 +1,4 @@
-angular.module('ethExplorer')
+angular.module('wabExplorer')
     .controller('transactionInfosCtrl', function ($rootScope, $scope, $location, $routeParams,$q) {
 
        var web3 = $rootScope.web3;
