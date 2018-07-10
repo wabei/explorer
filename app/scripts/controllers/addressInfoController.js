@@ -2,7 +2,7 @@ angular.module('ethExplorer')
     .controller('addressInfoCtrl', function ($rootScope, $scope, $location, $routeParams, $q) {
 
       var web3 = $rootScope.web3;
-	
+
       $scope.init=function(){
 
         $scope.addressId=$routeParams.addressId;
@@ -22,7 +22,7 @@ angular.module('ethExplorer')
             if(!error) {
                 deferred.resolve({
                   balance: result,
-                  balanceInEther: web3.fromWei(result, 'ether')
+                  balanceInEther: web3.fromWei(result, 'wabei')
                 });
             } else {
                 deferred.reject(error);
@@ -33,7 +33,7 @@ angular.module('ethExplorer')
 
 
       };
-      
+
       $scope.init();
 
     });
