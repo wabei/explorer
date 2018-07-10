@@ -2,7 +2,7 @@
   "name": "WabeiExplorer",
   "private": false,
   "version": "0.1.0",
-  "description": "A lightweight ethereum block explorer",
+  "description": "A lightweight wabei block explorer",
   "repository": "https://github.com/wabei/explorer",
   "license": "MIT",
   "devDependencies": {
