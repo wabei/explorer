@@ -1,6 +1,6 @@
-# EthExplorer (In Progress)
+# WabExplorer (In Progress)
 
-![EthExplorer Screenshot](http://i.imgur.com/NHFYq0x.png)
+![WabExplorer Screenshot](http://i.imgur.com/NHFYq0x.png)
 
 ##License
 
