@@ -10,7 +10,7 @@ angular.module('wabExplorer')
         if($scope.addressId!==undefined) {
           getAddressInfos().then(function(result){
             $scope.balance = result.balance;
-            $scope.balanceInEther = result.balanceInEther;
+            $scope.balanceInWabei = result.balanceInWabei;
           });
         }
 
@@ -22,7 +22,7 @@ angular.module('wabExplorer')
             if(!error) {
                 deferred.resolve({
                   balance: result,
-                  balanceInEther: web3.fromWei(result, 'wabei')
+                  balanceInWabei: web3.fromWei(result, 'wabei')
                 });
             } else {
                 deferred.reject(error);
